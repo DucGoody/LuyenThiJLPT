@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    tools:context="luyenthi.luyenthijlpt.Game">
+    <LinearLayout
+        android:id="@+id/d2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.08"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:weightSum="1">
+
+            <ProgressBar
+
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.7"
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="15"
+                android:progress="5" />
+
+            <TextView
+                android:id="@+id/txtvTimegame"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="25"
+                android:textColor="@color/mau1"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.08"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:padding="7dp"
+                app:srcCompat="@drawable/dung" />
+
+            <TextView
+                android:id="@+id/txtvdung"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="100"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imgNext2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:padding="7dp"
+                app:srcCompat="@drawable/sai" />
+            <TextView
+                android:id="@+id/txtvsai"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="100"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtvdiem"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#f90818"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingRight="10dp"
+                android:id="@+id/txtvCurrent"
+                android:layout_width="0dp"
+                android:paddingLeft="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.28"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="20/20"
+                android:textColor="@color/mau1"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.84"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/llgame1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/custom_cauhoi">
+                <ImageView
+
+                    android:padding="4dp"
+                    android:src="@color/background_main"
+                    android:id="@+id/imgAnhgame"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <ScrollView
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+
+                        android:id="@+id/txtvCauHoigame"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textColor="@color/mau1"
+                        android:textSize="18sp" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llgame2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_weight="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <ScrollView
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <TextView
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:id="@+id/txtvNoiDungCauHoigame"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/mau2"
+                        android:text="............................................................................."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.55"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/da12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="A"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <Button
+                        android:id="@+id/btnDaAgame"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:background="#bfefec"
+                        android:gravity="center_vertical"
+                        android:text="Đáp án 1"
+                        android:textColor="@color/mau2"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/da22"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="B"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <Button
+                        android:id="@+id/btnDaBgame"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:background="#bfefec"
+                        android:gravity="center_vertical"
+                        android:text="Đáp án 2"
+                        android:textColor="@color/mau2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/da32"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="C"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <Button
+                        android:id="@+id/btnDaCgame"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:background="#bfefec"
+                        android:gravity="center_vertical"
+                        android:text="Đáp án 3"
+                        android:textColor="@color/mau2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/da42"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="D"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <Button
+                        android:id="@+id/btnDaDgame"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:background="#bfefec"
+                        android:gravity="center_vertical"
+                        android:text="Đáp án 4"
+                        android:textColor="@color/mau2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/txtvNhanBiet2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.05"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

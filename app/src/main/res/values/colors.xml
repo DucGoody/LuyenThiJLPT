@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#39b1c7</color>
+    <color name="colorPrimaryDark">#2eb1c2</color>
+    <color name="colorAccent">#efb5c9</color>
+    <color name="mau1">#fe6091</color>
+    <color name="mau2">#009bb7</color>
+    <color name="background_main">#83e1ed</color>
+    <color name="mau_button">#aae6ed</color>
+</resources>

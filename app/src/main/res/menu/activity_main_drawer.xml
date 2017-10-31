@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_n5"
+            android:icon="@drawable/so5"
+            android:title="N5" />
+        <item
+            android:id="@+id/nav_n4"
+            android:icon="@drawable/so4"
+            android:title="N4" />
+        <item
+            android:id="@+id/nav_n3"
+            android:icon="@drawable/so3"
+            android:title="N3" />
+        <item
+            android:id="@+id/nav_n2"
+            android:icon="@drawable/so2"
+            android:title="N2" />
+        <item
+            android:id="@+id/nav_n1"
+            android:icon="@drawable/so1"
+            android:title="N1" />
+    </group>
+    <item android:title="Mở rộng">
+        <menu>
+            <item
+                android:id="@+id/nav_game"
+                android:icon="@drawable/gamepad"
+                android:title="Quiz game" />
+            <item
+                android:id="@+id/nav_cautucdethi"
+                android:icon="@drawable/cautruc"
+                android:title="Cấu trúc và tài liệu" />
+            <item
+                android:id="@+id/nav_chise"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Chia sẻ ứng dụng" />
+            <item
+                android:id="@+id/nav_thongtinungdung"
+                android:icon="@drawable/ttud"
+                android:title="Thông tin và trợ giúp" />
+        </menu>
+    </item>
+</menu>

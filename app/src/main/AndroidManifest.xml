@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="luyenthi.luyenthijlpt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icnavi"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icnavi"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuChon" />
+        <activity android:name=".StartTestDocHieu" />
+        <activity android:name=".StartTestNgheHieu" />
+        <activity android:name=".ShowDe" />
+        <activity android:name=".StartTest" />
+        <activity android:name=".StartTest2" />
+        <activity android:name=".ShowCauTrucTaiLieu" />
+        <activity android:name=".ShowTaiLieu" />
+        <activity android:name=".TTUD" />
+        <activity android:name=".Game"></activity>
+    </application>
+
+</manifest>

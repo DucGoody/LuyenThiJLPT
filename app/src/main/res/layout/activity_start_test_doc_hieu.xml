@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    tools:context="luyenthi.luyenthijlpt.StartTestDocHieu">
+    <LinearLayout
+        android:padding="5dp"
+        android:id="@+id/llResult13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:text="10/10"
+            android:textSize="16sp"
+            android:textColor="#f10b0b"
+            android:gravity="center"
+            android:id="@+id/txtvdiem3"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+        <ListView
+            android:id="@+id/lvResult13"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:background="@color/background_main"
+            android:divider="#f2f3f4"
+            android:dividerHeight="3dp">
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/lvMenu3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/d3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.08"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imgMenu3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.2"
+                android:padding="10dp"
+                app:srcCompat="@drawable/menu" />
+
+            <TextView
+                android:id="@+id/txtvTime33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:gravity="center"
+                android:text="25"
+                android:textColor="@color/mau1"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnSubmit3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.25"
+                android:background="@drawable/custom_submit"
+                android:padding="10dp"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.08"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imgBack3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="0.2"
+                android:padding="10dp"
+                app:srcCompat="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="Câu hỏi"
+                android:textColor="@color/mau1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtvCurrentCauHoi3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center_vertical"
+                android:text="88/88"
+                android:textColor="@color/mau1"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgNext3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="0.2"
+                android:padding="10dp"
+                app:srcCompat="@drawable/next" />
+            <ImageView
+                android:id="@+id/imgNoi3"
+                android:padding="8dp"
+                android:layout_weight="0.2"
+                android:src="@drawable/voice"
+                android:layout_width="0dp"
+                android:layout_marginRight="35dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.84"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/custom_cauhoi"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgAnh3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:padding="4dp"
+                    android:src="@color/background_main" />
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txtvCauHoi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/mau1"
+                        android:textSize="18sp" />
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.2"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/txtvchuthich3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.2"
+                    android:text="Nội dung câu hỏi:"
+                    android:textColor="@color/mau1" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.8">
+
+                    <TextView
+                        android:id="@+id/txtvNoiDungCauHoi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="............................................................................."
+                        android:textColor="@color/mau2" />
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.55"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/da41"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.15"
+                        android:gravity="center"
+                        android:text="A"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <!--<ScrollView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0.85">-->
+
+                        <Button
+                            android:layout_weight="0.85"
+                            android:id="@+id/btnDaA3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="#bfefec"
+                            android:gravity="center_vertical"
+                            android:text="Đáp án 1"
+                            android:textColor="@color/mau2"
+                            android:textSize="14sp" />
+                    <!--</ScrollView>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/da42"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.15"
+                        android:gravity="center"
+                        android:text="B"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <!--<ScrollView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0.85">-->
+
+                        <Button
+                            android:layout_weight="0.85"
+                            android:id="@+id/btnDaB3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="#bfefec"
+                            android:gravity="center_vertical"
+                            android:text="Đáp án 2"
+                            android:textColor="@color/mau2"
+                            android:textSize="14sp" />
+                    <!--</ScrollView>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/da43"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.15"
+                        android:gravity="center"
+                        android:text="C"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <!--<ScrollView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0.85">-->
+
+                        <Button
+                            android:layout_weight="0.85"
+                            android:id="@+id/btnDaC3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="#bfefec"
+                            android:gravity="center_vertical"
+                            android:text="Đáp án 3"
+                            android:textColor="@color/mau2"
+                            android:textSize="14sp" />
+                    <!--</ScrollView>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/da44"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.15"
+                        android:gravity="center"
+                        android:text="D"
+                        android:textColor="@color/mau2"
+                        android:textSize="25dp" />
+
+                    <!--<ScrollView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0.85">-->
+
+                        <Button
+                            android:layout_weight="0.85"
+                            android:id="@+id/btnDaD3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="#bfefec"
+                            android:gravity="center_vertical"
+                            android:text="Đáp án 4"
+                            android:textColor="@color/mau2"
+                            android:textSize="14sp" />
+                    <!--</ScrollView>-->
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtvNhanBiet3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="a"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

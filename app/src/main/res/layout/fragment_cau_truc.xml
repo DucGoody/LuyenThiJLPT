@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="luyenthi.luyenthijlpt.CauTrucFragment">
+<LinearLayout
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:textColor="#000"
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tieude" />
+
+    <TextView
+
+        android:textColor="#ea1919"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tieude2" />
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#0571de"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tieuchuan" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="@color/mau1"
+        android:text="Các cấp độ gồm các phần sau:" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#050cea"
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tuvung" />
+
+    <TextView
+
+        android:textColor="#000"
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tuvung2" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#d70b0b"
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ngphap" />
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/nguphap2" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#0ee20a"
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/dochieu" />
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/dochieu2" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#e2d80c"
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/nghehieu" />
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/nghehieu2" />
+
+    <TextView
+        android:textColor="#794412"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tomtat" />
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ketluan" />
+
+</LinearLayout>
+</ScrollView>

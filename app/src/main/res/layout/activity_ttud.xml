@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfeeff"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="luyenthi.luyenthijlpt.TTUD">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="#fff"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Ứng dụng luyện thi JLPT"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:gravity=""
+                android:text="- Nâng cao sự hiểu biết về tiếng Nhật. \n- Nâng cao khả năng về từ vựng, ngữ pháp, đọc hiểu, nghe hiểu. \n- Giúp việc luyện thi JLPT dễ dàng hơn, mọi lúc mọi nơi.  \nMọi ý kiến xin vui lòng liên hệ: \nOanh Mun"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/fb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="https://www.facebook.com/conang.catinh.3511"
+                android:textColor="@color/mau1"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/gmail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="lamoanh7895@gmail.com"
+                android:textColor="@color/mau1"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

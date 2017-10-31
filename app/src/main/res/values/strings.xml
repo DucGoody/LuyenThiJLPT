@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Luyện Thi JLPT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tieude">
+        Thi tiếng Nhật, là cách để bạn đánh giá khả năng tiếng Nhật của thân tốt nhất. Việc luyện thi cũng giúp bạn nâng cao sự hiểu biết về tiếng nhật và ngôn ngữ nói chung. Luyện thi tiếng Nhật là việc mà bạn nên làm. Sau đây chúng tôi sẽ giới thiệu về luyện thi JLPT.
+    </string>
+    <string name="tieude2">
+        Hiện tại, luyện thi khả năng tiếng Nhật được các tổ chức chỉ ra 5 cấp độ từ N1 (Khó nhất) đến N5 (dễ nhất).
+    </string>
+    <string name="tieuchuan">
+        Tiêu chuẩn đánh giá mỗi mức độ được tóm tắt như sau:
+    </string>
+    <string name="tuvung">Từ vựng:</string>
+    <string name="ngphap">Ngữ pháp:</string>
+    <string name="dochieu">Đọc hiểu:</string>
+    <string name="nghehieu">Nghe hiểu:</string>
+    <string name="tuvung2">Cung cấp những từ vựng trong tiếng nhật, hay được sử dụng. Giúp người dùng nhận biết từ vựng, hiểu hơn về vốn từ trong tiếng Nhật.
+    Bạn nên học từ vựng thường xuyên để nâng cao vốn từ mình có.
+    </string>
+    <string name="nguphap2">
+        Gồm 3 loại:
+        1, Câu hỏi dạng text.
+        2, Câu hỏi dạng hình ảnh.
+        3, Câu hỏi vừa có hình ảnh và vừa có text.
+        Giúp phát triển kỹ năng đọc , nhận biết câu thông qua hình ảnh hay dạng text.
+    </string>
+    <string name="dochieu2">
+        Đây là một trong những kỹ năng cần có và khá quan trọng khi học tiếng Nhật. Phần thi sẽ cho bạn đọc chuẩn hơn hiểu hơn và đặc biệt sẽ có thêm kiến thức về tiếng Nhật
+    </string>
+    <string name="nghehieu2">
+        Chắc hẳn khi thi bạn rất cần kiểm tra xem mình đã hiểu chưa và cách đọc tiếng Nhật như nào.
+        Tại đây, chúng tôi sẽ giúp bạn giải quyết vấn đề này , bạn có thể vừa thi vừa nghe nội dung câu hỏi cũng như đáp án.
+    </string>
+    <string name="tomtat">
+        Mỗi cấp độ sẽ có thời gian thi khác nhau, N1 sẽ là khó nhất tương đương với nó là N5 khó nhất.
+    </string>
+    <string name="ketluan">
+        Sau khi thi xong bạn có thể xem điểm của bạn và bạn có thể xem lại câu hỏi , đáp án.
+        Hơn nữa, bạn sẽ được nghe phát âm của các câu hỏi và đáp án.
+    </string>
+</resources>
